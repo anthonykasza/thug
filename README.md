@@ -118,6 +118,7 @@ described below.
 	$ patch -p0 < PyV8-patch1.diff 
 	patching file pyv8/src/Context.cpp
 	```
+	depending on the GCC version you are using you may also need to alter the V8's Makefile. See [here](https://groups.google.com/forum/#!topic/v8-dev/vxzTVQ5fJ4s)
 
 4. Set the environment variable V8_HOME with the V8 source code
    absolute path (you need to change the value reported below)
